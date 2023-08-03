@@ -1,0 +1,25 @@
+/* Global reset for all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the HTML and BODY elements */
+  
+  html{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   body {
+    place-content: center;
+    display: grid;
+    min-height: 100vh;
+    color: whitesmoke;
+    background-color: black;
+    padding: 1rem;
+  }
+ 
+  /* Additional styles specific to HTML, BODY, or other elements can be added here */
+  
